@@ -1,6 +1,7 @@
 const brandsData = [
   {
     src: "./assets/img/brands/google.svg",
+    // картинка подставляется по alt
     alt: "google",
   },
   {

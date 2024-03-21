@@ -8,7 +8,7 @@ export const headerOfFooter = {
 
 export const infoGpt3 = {
     img:{
-        src: "./assets/img/GPT-3.svg",
+        src: "../assets/img/GPT-3.svg",
         alt: "not-found",
     },
     text: `ул. Профессора Поздеева, 13, к.Г,
@@ -18,6 +18,7 @@ export const infoGpt3 = {
 
 export const footerLinks = {
         title: "Ссылки",
+        type: "links",
         items: [
             {
             href: "#",
@@ -41,6 +42,7 @@ export const footerLinks = {
 export const companyLinks = 
     {
         title: "Компания",
+        type: "company",
         items: [
             {
             href: "#",
@@ -60,6 +62,7 @@ export const companyLinks =
 export const contactLinks = 
     {
         title: "Контакты",
+        type: "contact",
         items: [
             {
             href: "#",
