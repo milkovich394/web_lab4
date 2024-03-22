@@ -437,6 +437,179 @@ p {
   color: #81afdd;
 }
 
+/* Превосходя все ожидания */
+
+.exceeding_all_expectations {
+  display: flex;
+  column-gap: 1rem;
+  margin: 1rem 0 2rem 0;
+  padding: 0 5% 0 2.5%;
+}
+
+.exceeding_all_expectations .exceeding_all_expectations__right {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  margin-bottom: 2.5%;
+  row-gap: 1.5rem;
+}
+
+.exceeding_all_expectations .exceeding_all_expectations__right .right__cta {
+  color: #71E5FF;
+  font-size: 12px;
+}
+
+.exceeding_all_expectations .exceeding_all_expectations__right .left__header {
+  width: 66%;
+}
+
+.exceeding_all_expectations .exceeding_all_expectations__right .container__content {
+  color: #81afdd;
+  line-height: 1.8;
+}
+
+.exceeding_all_expectations .exceeding_all_expectations__right .left__cta {
+  color: #f49867;
+  border-bottom: 1px solid transparent;
+}
+
+.exceeding_all_expectations .exceeding_all_expectations__right a:hover {
+  border-bottom: 1px solid #f49867;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+
+/*Зарегистрируйтесь и начните исследовать безграничные возможности.*/
+
+.registration {
+  display: flex;
+  height: 173px;
+  column-gap: 2rem;
+  margin: 2rem 0 6rem;
+  border: #000000 1px solid;
+  border-radius: 10px;
+  background: linear-gradient(90deg, #ae67fa 1.84%, #f49867 102.67%);
+}
+
+.registration .registration__left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 46px;
+}
+
+.registration .registration__left .right__cta {
+  color: #000000;
+  font-size: 14px;
+}
+
+.registration .registration__left .registration__left__content {
+  color: #000000;
+  width: 66%;
+}
+
+.registration .registration__right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.registration .registration__right a button {
+  background-color: #000000;
+  padding: 1rem 4rem;
+  border-radius: 25px;
+  font-size: 18px;
+}
+
+.registration .registration__right a button:hover {
+  background-color: #ae67fa
+}
+
+/* Многое происходит, мы ведем об этом блог*/
+
+.blog {
+  margin-top: 5rem;
+  margin-bottom: 7rem;
+}
+
+.blog .blog_header {
+  width: 66%;
+  margin-bottom: 1rem;
+}
+
+.blog .all_news {
+  display: flex;
+  flex-direction: row;
+  column-gap: 3rem;
+}
+
+.blog .all_news .first_news {
+  display: flex;
+  flex-direction: column;
+  max-height: 669px;
+}
+
+.blog .all_news .news_img {
+  width: 328px;
+}
+
+.blog .all_news .first_news .first_news__content {
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+
+.blog .all_news .all_other_news {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  row-gap: 2rem;
+  column-gap: 2rem;
+}
+
+.blog .all_news .all_other_news .other_news__content {
+  width: 328px;
+}
+
+.news {
+  background-color: #042C54;
+  margin-top: -5px;
+  padding: 15px 15px 20px 15px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+  align-items: flex-start;
+
+}
+
+.news p {
+  font-size: 12px;
+}
+
+.news h3 {
+  font-size: 19px;
+}
+
+.news a {
+  font-size: 12px;
+  margin-top: auto;
+  border-bottom: 1px solid transparent;
+}
+
+.news a:hover {
+  color: #f49867;
+  border-bottom: 1px solid #f49867;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+
 /* Медиа запросы для адаптива */
 
 @media screen and (max-width: 1024px) {
