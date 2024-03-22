@@ -4,6 +4,9 @@ import Brands from "../components/Brands";
 import WhatIsChatGpt from "../components/WhatIsChatGpt";
 import FutureHere from "../components/FutureHere";
 import {Footer, CreateTheEnd} from "../components/Footer";
+import Exceed from "../components/Exceed";
+import Registration from "../components/Registration"
+import Blog from "../components/Blog";
 
 const Home = () => {
   return (
@@ -22,6 +25,15 @@ const Home = () => {
       </section>
       <section className="section future_here">
         <FutureHere />
+      </section>
+      <section className="section exceeding_all_expectations">
+        <Exceed />
+      </section>
+      <section className="section registration_section">
+        <Registration />
+      </section>
+      <section className="section blog_section">
+        <Blog />
       </section>
       <section className="section footer">
         <Footer />
